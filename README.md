@@ -1,15 +1,33 @@
 # webhook-pokus
 
-To install dependencies:
+A Bun + React app that builds into a static `dist` folder.
+
+## Install
 
 ```bash
 bun install
 ```
 
-To run:
+## Develop
+
+Starts Bun's dev server with hot reloading:
 
 ```bash
-bun run index.ts
+bun run dev
 ```
 
-This project was created using `bun init` in bun v1.3.14. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
+## Build
+
+Bundles the app into a static `dist` folder:
+
+```bash
+bun run build
+```
+
+## Preview
+
+Build and serve the static output locally:
+
+```bash
+bun run preview
+```
